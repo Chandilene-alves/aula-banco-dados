@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="card-login">
-        <h1>Login</h1>
-        <form>
-            <label for="">Email</label>
-            <input type="email" placeholder="email@gmail.com" required>
-            <label for="">Senha</label>
-            <input type="password" required >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-            <button class="btn-login">Login</button>
-        </form>
-    </div>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="card-login">
+      <span class="material-icons-round icon-login"> account_circle </span>
+      <h1>Login</h1>
+      <form class="form-login">
+        <label>Email</label>
+        <input
+          type="email"
+          placeholder="email@gmail.com"
+          name="email"
+          id="email"
+          required
+        />
+        <label>Senha</label>
+        <input type="password" name="password" id="password" required />
+
+        <button type="submit" class="btn-login" aria-label="realizar login">
+          Login
+        </button>
+      </form>
+    </article>
+  </body>
 </html>
